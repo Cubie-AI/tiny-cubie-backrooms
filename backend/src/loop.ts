@@ -9,8 +9,8 @@ const cubie = new TinyAgent({
   }),
   settings: {
     system: CUBIE_SYSTEM_PROMPT,
-    temperature: 0.86,
-    maxTokens: 444,
+    temperature: 0.82,
+    maxTokens: 1024,
   },
 });
 
@@ -20,8 +20,8 @@ const anthropic = new TinyAgent({
   }),
   settings: {
     system: ASSISTANT_SYSTEM_PROMPT,
-    temperature: 0.77,
-    maxTokens: 444,
+    temperature: 0.85,
+    maxTokens: 1024,
   },
 });
 
